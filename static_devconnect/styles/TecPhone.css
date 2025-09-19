@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+
+    background-color: #fff;
+    min-width: 100vh;
+
+}
+
+#cabecalho {
+
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+
+#cabecalho img {
+
+    width: 80px;
+    height: auto;
+
+}
+
+#cabecalho nav {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#cabecalho nav a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+#cabecalho nav a:hover {
+    color: #D71D00;
+}
+
+#produtos {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+#produtos h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.card-nome {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.card-especificacoes {
+    list-style: disc;
+    margin-left: 20px;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.card-rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.card-preco {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #e53935;
+}
+
+.card-comprar {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.card-comprar:hover {
+    background-color: #e88e00;
+}

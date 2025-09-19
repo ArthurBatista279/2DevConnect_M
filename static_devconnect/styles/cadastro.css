@@ -1,0 +1,184 @@
+/*Style da tela cadastro*/
+
+/* Container geral */
+#cadastro-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fafafa;
+    gap: 15px;
+}
+
+/* Caixa de cadastro */
+.cadastro-container {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 30px;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo */
+.logo-img {
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+/* Texto acima do formulário */
+.cadastro-texto {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+
+/* Inputs e botao */
+.TelaLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.TelaLogin input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
+
+.TelaLogin button {
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.TelaLogin button:hover {
+    background-color: #0078cc;
+}
+
+.cadastro-form button:hover,
+.custom-file-btn:hover {
+    background-color: #0078cc;
+}
+
+.cadastro-form input[type="file"] {
+    display: none;
+}
+
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.cadastro-form input {
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background-color: #fafafa;
+    font-size: 0.95rem;
+}
+
+.cadastro-form input[type="file"] {
+    padding: 8px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+
+
+.cadastro-form button:hover {
+    background-color: #0078cc;
+}
+
+/* Texto dos termos */
+.termos {
+    margin-top: 15px;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #777;
+}
+
+.termos a {
+    color: #00376b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.termos a:hover {
+    text-decoration: underline;
+}
+
+/* Caixa de login (já tem conta?) */
+.login-container {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.login-container a {
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+.cadastro-form input[type="file"] {
+    display: none;
+}
+
+/* Botão do upload */
+.custom-file-btn {
+    display: inline-block;
+    width: auto;
+    background-color: #0095f6;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.cadastro-form button {
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Esconde input sem quebrar layout */
+.custom-file-btn input[type="file"] {
+    display: none;
+}
+
+.custom-file-btn:hover {
+    background-color: #0078cc;
+}
